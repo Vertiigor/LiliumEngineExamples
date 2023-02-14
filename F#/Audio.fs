@@ -23,6 +23,8 @@ let setup() =
 
 [<EntryPoint>]
 let main args =
+
+    // !!! THE FOLLOWING METHODS SHOULD BE CALLED BEFORE game.Run()
     setup()
     
     story.Write "And suddenly the music started playing..."

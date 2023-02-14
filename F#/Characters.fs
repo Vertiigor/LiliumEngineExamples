@@ -27,6 +27,8 @@ let setup() =
 
 [<EntryPoint>]
 let main args =
+
+    // !!! THE FOLLOWING METHODS SHOULD BE CALLED BEFORE game.Run()
     setup()
     
     // outputs a message in the format - characterName: "message"

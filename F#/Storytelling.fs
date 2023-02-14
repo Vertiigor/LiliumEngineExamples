@@ -23,6 +23,8 @@ let setup() =
 
 [<EntryPoint>]
 let main args =
+
+    // !!! THE FOLLOWING METHODS SHOULD BE CALLED BEFORE game.Run()
     setup()
     
     // Displays impersonal text without quotes. Can be used as the words of the author or thoughts of the hero
