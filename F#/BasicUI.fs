@@ -10,7 +10,7 @@ let EndGame = 0
 
 // General:
 let mainColor = new ColorUI(154uy, 8uy, 66uy)
-let game = new Game("Title", @"Assets\Fonts\font.otf", mainColor)
+let game = new Game("Title", @"<font file path>", mainColor)
 let audio = new AudioPlayer(game)
 let story = new StoryTelling(game)
 
@@ -23,7 +23,7 @@ let setup() =
     let label = new Label(650f, 600f, "Sample Text", new ColorUI(190uy, 30uy, 120uy), 35u)
 
     // Create a ImageBox at coordinates: X - 690, Y - 200, contains the image located at the specified path
-    let image = new ImageBox(690f, 200f, @"Assets\Textures\backMenu.png")
+    let image = new ImageBox(690f, 200f, @"<image file path>")
 
     // Create a CheckBox at coordinates: X - 800, Y - 800, with the text "Label", with mainColor and character size of 30
     let check = new CheckBox(800f, 800f, "Label", mainColor, 30u)
