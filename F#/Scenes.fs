@@ -35,7 +35,7 @@ let setup() =
     // adding these elements to "Menu" scene
     game.AddElementsUI("Menu", startButton, optionsButton)
 
-    // adding these CheckBox to "Options" scene
+    // adding CheckBox to "Options" scene
     game.AddElementsUI("Options", check)
 
 [<EntryPoint>]
