@@ -9,6 +9,8 @@ open LiliumEngine.Audio
 let EndGame = 0
 
 // General:
+// Жалпы:
+// Общий:
 let mainColor = new ColorUI(154uy, 8uy, 66uy)
 let game = new Game("Title", @"<font file path>", mainColor)
 let audio = new AudioPlayer(game)
