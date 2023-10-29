@@ -20,8 +20,8 @@ let setup() =
     
     let startButton = new Button(840f, 700f, "Play", mainColor, 30u)
     // set an event to the button: when clicked, the scene switches to "Main"
-    // түймеге оқиғаны орнату: басқан кезде көрініс «Негізгі» күйге ауысады
-    // устанавливаем событие на кнопку: при нажатии сцена переключается на "Основную"
+    // түймеге оқиғаны орнату: басқан кезде көрініс «Main» күйге ауысады
+    // устанавливаем событие на кнопку: при нажатии сцена переключается на "Main"
     startButton.Click.Add(fun evArgs -> SceneManager.LoadScene(game, "Main"))
 
     let check = new CheckBox(800f, 800f, "Label", mainColor, 30u)
@@ -37,8 +37,8 @@ let setup() =
     quitButton.Click.Add(fun evArgs -> game.Close(game, evArgs))
 
     // adding these elements to "Menu" scene
-    // осы элементтерді «Мәзір» көрінісіне қосу
-    // добавляем эти элементы в сцену "Меню"
+    // осы элементтерді «Menu» көрінісіне қосу
+    // добавляем эти элементы в сцену "Menu"
     game.AddElementsUI("Menu", startButton, check, quitButton)
 
 [<EntryPoint>]
