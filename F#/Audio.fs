@@ -27,8 +27,8 @@ let setup() =
 let main args =
 
     // !!! THE FOLLOWING METHODS SHOULD BE CALLED BEFORE game.Run()
-    // !!! ТӨМЕНДЕГІ ӘДІСТЕР Game.Run() БҰРЫН ШАҚЫРУ КЕРЕК
-    // !!! СЛЕДУЮЩИЕ МЕТОДЫ ДОЛЖНЫ БЫТЬ ВЫЗОВАНЫ ПЕРЕД игрой.Run()
+    // !!! ТӨМЕНДЕГІ ӘДІСТЕР game.Run() БҰРЫН ШАҚЫРУ КЕРЕК
+    // !!! СЛЕДУЮЩИЕ МЕТОДЫ ДОЛЖНЫ БЫТЬ ВЫЗОВАНЫ ПЕРЕД game.Run()
     setup()
     
     story.Write "And suddenly the music started playing..."
